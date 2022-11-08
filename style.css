@@ -1,0 +1,159 @@
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: #630606;
+}
+
+header{
+  height: 50vh;
+  border: 1px solid black;
+  background-image: url('img/Jembatan-Ampera.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background: linear-gradient(90deg, rgba(7,85,27,1) 0%, rgba(69,255,58,1) 28%, rgba(255,0,0,1) 80%); */
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header h1{
+  color: ghostwhite;
+  font-size: 100px;
+  text-decoration-line: underline;
+  text-shadow: 5px 3px 1px #630606;
+}
+nav{
+  text-align: center;
+  background-color: maroon;
+  padding: 10px 0;
+}
+nav a{
+  margin: 0 10px;
+  color: ghostwhite;
+}
+
+nav a:hover{
+  color:#FEC260;
+}
+/* main */
+main{
+  display: flex;
+  justify-content:space-between;
+}
+/* conten */
+.container-conten{
+  border:1px solid black;
+}
+
+.container-conten a{
+  color:white;
+}
+
+.container-conten a:hover{
+  color:#FEC260;
+}
+
+.desc{
+  display: flex;
+}
+
+/* visi Misi */
+#description{
+  border: 1px solid black;
+  background-color: maroon;
+  color: white;
+  margin: 10px;
+  padding: 10px 20px;
+  box-shadow:  0 6px 7px rgba(0,0,0,0.5);
+  border-radius: 10px;
+  font-family: helvetica;
+}
+#description h2{
+  text-align: center;
+}
+
+.container-item{
+  margin: 15px;
+  font-family: helvetica;
+  border: 1px solid black;
+  background-color: maroon;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 6px 7px rgba(0,0,0,0.5);
+}
+
+.isi-desc{
+  padding: 20px;
+  text-align: justify;
+}
+
+.isi-desc h3{
+  text-align: center;
+  padding: 20px;
+}
+
+.wisata{
+  color: white;
+  text-align: center;
+}
+
+.container-item img{
+  width: 40%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.btn{
+  background-color: #FEC260;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  border-style: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btn:hover{
+  color:red;
+}
+
+aside{
+  width: 1300px;
+  /* border: 1px solid black; */
+  margin-left: 15px;
+}
+.container-data{
+  margin-top: 20px;
+  border:1px solid black ;
+  border-radius: 10px;
+  background-color: maroon;
+  color:white;
+}
+.container-data img{
+  width: 40%;
+  display: block;
+  margin: auto;
+  padding: 20px;
+}
+
+.container-data p{
+  text-align: center;
+}
+/* footer */
+footer {
+  border: 1px solid black;
+  background-color: maroon;
+  color: white;
+}
+footer p{
+  text-align: center;
+  padding: 10px;
+}
